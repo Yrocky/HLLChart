@@ -15,6 +15,9 @@
 		849CD5161C19669700B67110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CD5141C19669700B67110 /* LaunchScreen.storyboard */; };
 		849CD5211C19669800B67110 /* HLLChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CD5201C19669800B67110 /* HLLChartTests.m */; };
 		849CD52C1C19669800B67110 /* HLLChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CD52B1C19669800B67110 /* HLLChartUITests.m */; };
+		849CD53B1C1966B400B67110 /* HLLChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CD53A1C1966B400B67110 /* HLLChartView.m */; };
+		849CD53E1C1966CA00B67110 /* HLLChartHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CD53D1C1966CA00B67110 /* HLLChartHandle.m */; };
+		849CD5411C1966DE00B67110 /* HLLChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CD5401C1966DE00B67110 /* HLLChartModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		849CD5271C19669800B67110 /* HLLChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849CD52B1C19669800B67110 /* HLLChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLChartUITests.m; sourceTree = "<group>"; };
 		849CD52D1C19669800B67110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849CD5391C1966B400B67110 /* HLLChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLChartView.h; sourceTree = "<group>"; };
+		849CD53A1C1966B400B67110 /* HLLChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLChartView.m; sourceTree = "<group>"; };
+		849CD53C1C1966CA00B67110 /* HLLChartHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLChartHandle.h; sourceTree = "<group>"; };
+		849CD53D1C1966CA00B67110 /* HLLChartHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLChartHandle.m; sourceTree = "<group>"; };
+		849CD53F1C1966DE00B67110 /* HLLChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLChartModel.h; sourceTree = "<group>"; };
+		849CD5401C1966DE00B67110 /* HLLChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLChartModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				849CD50A1C19669600B67110 /* AppDelegate.m */,
 				849CD50C1C19669600B67110 /* ViewController.h */,
 				849CD50D1C19669600B67110 /* ViewController.m */,
+				849CD5391C1966B400B67110 /* HLLChartView.h */,
+				849CD53A1C1966B400B67110 /* HLLChartView.m */,
+				849CD53C1C1966CA00B67110 /* HLLChartHandle.h */,
+				849CD53D1C1966CA00B67110 /* HLLChartHandle.m */,
+				849CD53F1C1966DE00B67110 /* HLLChartModel.h */,
+				849CD5401C1966DE00B67110 /* HLLChartModel.m */,
 				849CD50F1C19669600B67110 /* Main.storyboard */,
 				849CD5121C19669700B67110 /* Assets.xcassets */,
 				849CD5141C19669700B67110 /* LaunchScreen.storyboard */,
@@ -202,6 +217,7 @@
 		849CD4FB1C19669400B67110 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HLL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HLL;
 				TargetAttributes = {
@@ -270,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849CD53E1C1966CA00B67110 /* HLLChartHandle.m in Sources */,
 				849CD50E1C19669600B67110 /* ViewController.m in Sources */,
 				849CD50B1C19669600B67110 /* AppDelegate.m in Sources */,
+				849CD5411C1966DE00B67110 /* HLLChartModel.m in Sources */,
+				849CD53B1C1966B400B67110 /* HLLChartView.m in Sources */,
 				849CD5081C19669500B67110 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
